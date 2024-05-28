@@ -1,7 +1,7 @@
 streamlit
 pandas
 pyspark==3.5.1
-graphframes==0.6
+graphframes-latest
 streamlit-agraph
 fuzzywuzzy
 openpyxl
