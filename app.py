@@ -20,6 +20,11 @@ Utilisez la barre de recherche pour trouver des nœuds spécifiques, même si vo
 c = st.container()
 c.write("Ce projet est fait par Abdessamad ANSSEM, étudiant à l'INPT de Rabat.")
 
+st.info("""
+    **Cette application a été réalisée pour un projet PFA: Nlp For Graph Analysis**  
+    **Fait par: Abdessamad ANSSEM, étudiant à l'INPT de Rabat.**
+""")
+
 st.markdown("[Fichier Excel](https://github.com/AbdoAnss/Graph-V/blob/main/data.xlsx) pour telecharger le fichier Excel et lancer l'application.")
 st.markdown("""
             Pour plus d'informations, veuillez consulter le lien suivant:
