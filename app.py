@@ -12,13 +12,11 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Title and description
-st.title("Graph Visualization of Moroccan Companies with GraphFrames")
+st.title("Visualisation Network Graph des entreprises marocaines avec GraphFrames")
 st.write("""
 Cette application permet de visualiser et d'interagir avec des graphes créés à partir de données de nœuds et d'arêtes. 
 Utilisez la barre de recherche pour trouver des nœuds spécifiques, même si vous ne connaissez pas leur nom exact.
 """)
-c = st.container()
-c.write("Ce projet est fait par Abdessamad ANSSEM, étudiant à l'INPT de Rabat.")
 
 st.info("""
     **Cette application a été réalisée pour un projet PFA: Nlp For Graph Analysis**  
