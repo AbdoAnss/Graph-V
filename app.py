@@ -12,11 +12,12 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Title and description
-st.title("Graph Visualization with GraphFrames and NLP Integration")
+st.title("Graph Visualization of Moroccan Companies with GraphFrames")
 st.write("""
 Cette application permet de visualiser et d'interagir avec des graphes créés à partir de données de nœuds et d'arêtes. 
 Utilisez la barre de recherche pour trouver des nœuds spécifiques, même si vous ne connaissez pas leur nom exact.
 """)
+st.callout("Ce projet est fait par Abdessamad ANSSEM, étudiant à l'INPT de Rabat.")
 
 st.markdown("[Fichier Excel](https://github.com/AbdoAnss/Graph-V/blob/main/data.xlsx) pour telecharger le fichier Excel et lancer l'application.")
 st.markdown("""
