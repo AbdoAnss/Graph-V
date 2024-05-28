@@ -8,6 +8,7 @@ from fuzzywuzzy import process
 # Initialize Spark Session
 spark = SparkSession.builder \
     .appName("GraphFrameExample") \
+    .config("spark.jars.packages", "graphframes:graphframes:0.8.3-spark3.5-s_2.12") \
     .getOrCreate()
 
 # Title and description
