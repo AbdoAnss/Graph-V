@@ -4,3 +4,4 @@ pyspark
 graphframes
 streamlit-agraph
 fuzzywuzzy
+openpyxl
