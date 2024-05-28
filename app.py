@@ -30,8 +30,19 @@ st.markdown("""
             Merci pour votre visite.
             """)
 
+
+st.warning("""
+           Comment utiliser l'application:
+              1. Téléchargez le fichier Excel en utilisant le lien ci-dessus.
+              2. Ouvrez le fichier Excel pour voir les données.
+              3. Utilisez la barre de recherche pour filtrer les nœuds.
+              4. Cliquez sur un nœud pour afficher ses informations.
+                """)
+
+
+
 # Upload Excel file
-uploaded_file = st.file_uploader("Upload your Excel file", type=["xlsx"])
+uploaded_file = st.file_uploader("Uploader votre fichier excel", type=["xlsx"])
 
 if uploaded_file is not None:
     # Load the Excel file
@@ -221,5 +232,5 @@ if uploaded_file is not None:
 
 
 else:
-    st.write("Please upload an Excel file to get started.")
+    st.write("Merci de télécharger un fichier Excel pour continuer.")
 
