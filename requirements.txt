@@ -1,7 +1,6 @@
-streamlit==1.18.1
-pandas==1.5.3
-pyspark==3.3.2
+streamlit==1.32
+pandas==2.2.2
+pyspark==3.5.1
 graphframes==0.6
 fuzzywuzzy==0.18.0
-python-levenshtein==0.20.9
-streamlit-agraph==0.3.2
+streamlit-agraph==0.0.45
